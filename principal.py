@@ -36,6 +36,11 @@ class Game:
                     self.jogando: False
                 self.esta_jogando = False
 
-    def  atualizar_sprites()
+    def  atualizar_sprites(self):
         #Atualiza sprites
+        self.todas_as_sprites.update()
+
+    def desenhar_sprites(self):
+        #Desenhar sprites
+
 
