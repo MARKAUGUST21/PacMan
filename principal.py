@@ -1,4 +1,5 @@
 import pygame
+# Não importei  from pygame.locals import*
 import constantes
 import sprites
 
@@ -28,5 +29,13 @@ class Game:
             self.desenhar_sprites()
         
     def eventos(self):
-        
+        #Define os eventos do jogo
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                if self.jogandO:
+                    self.jogando: False
+                self.esta_jogando = False
+
+    def  atualizar_sprites()
+        #Atualiza sprites
 
