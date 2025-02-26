@@ -14,4 +14,19 @@ class Game:
     
     def novo_jogo(self):
         # Instancia as classes das sprites do jogo
-        self.todas_as_sprites = 
+        self.todas_as_sprites = pygame.sprite.Group()
+        self.rodar()
+
+    def rodar(self):
+        #Loop do jogo
+        self.jogando = True
+        while self.jogando:
+            # TAXA FRAMES DO JOGO
+            self.relogio.tick(constantes.FPS)
+            self.eventos()
+            self.atualizar_sprites()
+            self.desenhar_sprites()
+        
+    def eventos(self):
+        
+
