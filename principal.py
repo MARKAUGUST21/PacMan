@@ -12,4 +12,6 @@ class Game:
         self.relogio = pygame.time.Clock()
         self.esta_rodando = True
     
-    def novo_jogo()
+    def novo_jogo(self):
+        # Instancia as classes das sprites do jogo
+        self.todas_as_sprites = 
