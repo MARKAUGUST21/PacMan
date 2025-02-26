@@ -7,3 +7,6 @@ TITULO_JOGO = 'PACMAN'
 
 # FPS
 FPS = 30
+
+#Cores
+PRETO = (0, 0, 0)
